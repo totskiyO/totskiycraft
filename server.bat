@@ -1,0 +1,1 @@
+npx http-server H:\Projects\JavaScript\TotskiyCraft -o -p 8000

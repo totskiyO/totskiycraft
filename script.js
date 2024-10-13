@@ -11,7 +11,7 @@ onload = function () {
         return response.json();
     })
     .then(data => {
-        if (data['online'] == false) {
+        if (data['online']) {
             statusObjText.innerText = 'Online';
             statusObj.style.color = "#c1ffb1";
         } else {

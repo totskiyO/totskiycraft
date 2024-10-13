@@ -12,11 +12,11 @@ onload = function () {
     })
     .then(data => {
         if (data['online'] == false) {
-            statusObjText.innerText = 'Offline';
-            statusObj.style.color = "#ff9f9f"
-        } else {
             statusObjText.innerText = 'Online';
-            statusObj.style.color = "#c1ffb1"
+            statusObj.style.color = "#c1ffb1";
+        } else {
+            statusObjText.innerText = 'Offline';
+            statusObj.style.color = "#ff9f9f";
         }
     })
     .catch(error => {

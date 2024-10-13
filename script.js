@@ -1,5 +1,5 @@
 onload = function () {
-    const apiUrl = 'https://api.mcstatus.io/v2/status/java/totskiycraft.aternos.me';
+    const apiUrl = 'https://api.mcstatus.io/v2/status/java/mc.totskiycraft.pp.ua';
     var statusObj = document.getElementById('status')
     var statusObjText = document.getElementById('status-text')
 

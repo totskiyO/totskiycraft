@@ -11,7 +11,7 @@ onload = function () {
         return response.json();
     })
     .then(data => {
-        if (data['version']['name_clean'].includes('Offline')) {
+        if (data['online']) {
             statusObjText.innerText = 'Offline';
             statusObj.style.color = "#ff9f9f"
         } else {

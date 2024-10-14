@@ -74,7 +74,8 @@ body {
 }
 
 #server-status {
-    margin: 0;
+    align-self: center;
+    justify-content: center;
 }
 
 .servlogo {
@@ -83,4 +84,21 @@ body {
     margin-left: auto;
     width: 90%;
     align-self: flex-start;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4svh;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1svh solid #ffffff;
+}
+
+.photo {
+    width: 100%;
+    ;
 }

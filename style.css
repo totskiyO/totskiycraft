@@ -89,7 +89,7 @@ body {
 p {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4svh;
+    font-size: 2.5svh;
     margin: 0;
 }
 
@@ -100,5 +100,4 @@ hr {
 
 .photo {
     width: 100%;
-    ;
 }
